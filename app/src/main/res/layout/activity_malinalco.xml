@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.malinalco">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Malinalco"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#673AB7"
+                    android:textSize="36sp"
+                    android:layout_marginTop="1dp"/>
+
+                <ImageView
+                    android:id="@+id/imagegps"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/gps" />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="315dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/mali" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos del lugar "
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#009688"
+                android:textSize="30sp"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En un hermoso valle de abundante vegetación, al pie de las montañas se ubica Malinalco, Pueblo Mágico ancestral de calles empedradas y casas multicolores. Sus calles están salpicadas de flores que brotan de las paredes de sus casonas coloniales y de pequeños templos de los siglos XV, y XVII que te transportarán en un viaje por el pasado de México."
+                android:fontFamily="sans-serif"
+                android:textColor="#02322D"
+                android:textSize="22sp"
+                android:layout_marginTop="1dp"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Cooltravel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CoolTravel</string>
+    <string name="nav_header_subtitle">coltravel@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Login</string>
+
+    <string name="menu_home">Lugares populares</string>
+    <string name="menu_gallery">Museos</string>
+    <string name="menu_slideshow">Hoteles</string>
+    <string name="menu_restaurant">Restaurantes</string>
+    <string name="menu_parques">Parques</string>
+    <string name="menu_compra">Compras</string>
+
+    <string name="m_regist">REGISTRARSE</string>
+    <string name="m_nom_ap">Nombre y apellido</string>
+    <string name="me_foto">Fotografia</string>
+    <string name="m_email">Tu Email</string>
+    <string name="m_contraseña">Contraseña</string>
+    <string name="m_confcontraseña">Confirmar Contraseña</string>
+    <string name="m_loggin">Loggin</string>
+    <string name="m_internet">Internet</string>
+
+    <string name="btn_crear">Guardar</string>
+
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="title_activity_mapteotihucan">Map</string>
+    <string name="title_activity_mapsmetepunk">Map</string>
+    <string name="title_activity_map_metepec">Map</string>
+    <string name="title_activity_maps_mali">Map</string>
+    <string name="title_activity_maps_centro">Map</string>
+    <string name="title_activity_maps_historia">Map</string>
+    <string name="title_activity_maps_acuarela">Map</string>
+    <string name="title_activity_maps_cosmo">Map</string>
+    <string name="title_activity_maps_villas">Map</string>
+    <string name="title_activity_maps_kaia">Map</string>
+    <string name="title_activity_maps_nevado">Map</string>
+    <string name="title_activity_maps_martin">Map</string>
+    <string name="title_activity_maps_porton">Map</string>
+</resources>

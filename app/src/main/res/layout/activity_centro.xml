@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.Centro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="Centro cultural mexiquense"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="#673AB7"
+                    android:textSize="25sp"
+                    android:layout_marginTop="1dp"/>
+
+                <ImageView
+                    android:id="@+id/imagegps"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/gps" />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="315dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/centro" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos del lugar "
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#009688"
+                android:textSize="30sp"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El 30 de agosto se inauguró en este municipio el Centro Cultural Mexiquense Bicentenario, considerado el más grande e importante de la entidad y que fue construido en la zona oriente, integrada por 34 ayuntamientos y habitada por 6.5 millones de mexiquenses.
+
+Ubicado a la entrada del pueblo de Coatlinchán, sobre la carretera Texcoco-Los Reyes, el centro consta de cuatro conjuntos arquitectónicos que contienen, entre otros, un teatro/sala de conciertos para mil 200 personas, 8 mil 500 metros cuadrados de espacios museísticos, una biblioteca con capacidad para 50 mil volúmenes y área para 40 talleres, además de auditorios y un teatro al aire libre para 800 personas, que puede aumentar a 4 mil."
+                android:fontFamily="sans-serif"
+                android:textColor="#02322D"
+                android:textSize="22sp"
+                android:layout_marginTop="1dp"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
